@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фитнес клуб</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar is-fixed-top" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/128/563/563777.png" alt="Логотип">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#about">
+                    О клубе
+                </a>
+
+                <a class="navbar-item" href="#contacts">
+                    Контакты
+                </a>
+
+                <a class="navbar-item" href="#buy">
+                    Купить абонемент
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Услуги
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="#gym">
+                            Тренажерный зал
+                        </a>
+                        <a class="navbar-item" href="#personal">
+                            Персональные тренировки
+                        </a>
+                        <a class="navbar-item" href="#group">
+                            Группвые тренировки
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary">
+                            <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero is-dark is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column">
+                        <h1 class="title is-1">
+                            Стань сильнее уже сегодня
+                        </h1>
+                        <p class="subtitle is-4">
+                            Современный фитнес-клуб с профессиональными тренерами и комфортной атмосферой
+                        </p>
+
+                        <div class="buttons">
+                            <a href="#buy" class="button is-primary is-large">
+                                Купить абонемент
+                            </a>
+                            <a href="#about" class="button is-light is-large">
+                                Узнать больше
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <figure class="image is-4by3">
+                            <img src="https://media.istockphoto.com/id/2027278927/photo/young-athletic-woman-exercising-with-barbell-during-sports-training-in-a-gym.webp?b=1&s=612x612&w=0&k=20&c=GgUcjc_BYg9kiIcf39AJVdOZ7iLe8XHgX4poqW-UAI4=" alt="Тренировка в фитнес-клубе">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h2 class="title is-2">О клубе</h2>
+                    <p>
+                        Наш фитнес-клуб — это место, где каждый может достичь своих целей. 
+                        Современные залы, квалифицированные тренеры и дружелюбная атмосфера помогут вам на пути к здоровью и силе
+                    </p>
+                </div>
+
+                <div class="column">
+                    <figure class="image is-4by3">
+                        <img src="https://imagef2.promeai.pro/process/do/1815185ae2ddfd023da32bcf616afdfb.webp?sourceUrl=/g/p/gallery/publish/2024/09/23/986fe509764a4c3e95b62027a470193e.jpg&x-oss-process=image/watermark,image_ZGVmYXVsdA,t_100,P_20,g_south,y_24/format,webp&sign=9b908201be9c76e0223230c28d0e0836" alt="Зал фитнес-клуба">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section has-background-grey-darker">
+        <div class="container">
+            <h2 class="title has-text-centered">Услуги</h2>
+
+            <div class="columns">
+
+            <div class="column" id="gym">
+                <div class="card">
+                    <div class="card-content has-text-centered">
+                        <i class="fas fa-dumbbell fa-2x"></i>
+                        <p class="title is-5 mt-3">Тренажерный зал</p>
+                        <p class="subtitle is-6 mt-2">
+                            Обычная подписка: 2000 ₽/мес, 20000 ₽/год<br>
+                            Премиум подписка: 2500 ₽/мес, 25000 ₽/год (включает СПА и сауну)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column" id="personal">
+                <div class="card">
+                    <div class="card-content has-text-centered">
+                        <i class="fas fa-user fa-2x"></i>
+                        <p class="title is-5 mt-3">Персональные тренировки</p>
+                        <p class="subtitle is-6 mt-2">
+                            Стоимость: 3000 ₽ за одну тренировку
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column" id="group">
+                <div class="card">
+                    <div class="card-content has-text-centered">
+                        <i class="fas fa-users fa-2x"></i>
+                        <p class="title is-5 mt-3">Групповые тренировки</p>
+                        <p class="subtitle is-6 mt-2">
+                            Стоимость: 1500 ₽/мес, 15000 ₽/год
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="columns is-centered mt-5" id="buy">
+                <div class="column is-half">
+                    <h3 class="title is-4 has-text-centered">Оставить заявку на абонемент</h3>
+                    <form>
+                        <div class="field has-addons">
+                            <div class="control is-expanded">
+                                <input class="input" type="tel" placeholder="+71234567890" id="phone" pattern="^\+7\d{10}$" required>
+                            </div>
+                            <div class="control">
+                                <button class="button is-primary" type="submit">
+                                    Отправить
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title has-text-centered">Преимущества</h2>
+
+            <div class="columns is-vcentered mb-6">
+                <div class="column">
+                    <h3 class="title is-4">Современное оборудование</h3>
+                    <p>
+                        В нашем клубе установлено современное спортивное оборудование,
+                        которое позволяет тренироваться безопасно и эффективно
+                    </p>
+                </div>
+                <div class="column">
+                    <figure class="image is-3by2">
+                        <img src="https://www.stockvault.net//data/2020/12/02/281173/thumb16.jpg" alt="Современное оборудование">
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="image is-3by2">
+                        <img src="https://www.stockvault.net//data/2020/12/02/281177/thumb16.jpg" alt="Современное оборудование">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <h3 class="title is-4">Профессиональные тренеры</h3>
+                    <p>
+                        Наши тренеры имеют богатый опыт и сертификацию,
+                        чтобы помочь вам достичь ваших целей
+                    </p>
+                </div>
+                <div class="column">
+                    <figure class="image is-3by2">
+                        <img src="https://imagef2.promeai.pro/process/do/026999a45366e9dc0379a2bb25d58876.webp?sourceUrl=/g/p/gallery/publish/2024/02/19/e93ab0df614c449e990c6f15d51cac73.png&x-oss-process=image/watermark,image_ZGVmYXVsdA,t_100,P_20,g_south,y_42/format,webp&sign=2bd838d613177eff220f1fbc7a71a9dd" alt="Тренеры">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer has-background-grey-darker">
+        <div class="content has-text-centered" id="contacts">
+            <p class="has-text-weight-bold">Контакты</p>
+            <p>Телефон: +7 (900) 123-45-67</p>
+            <p>Email: info@fitclub.ru</p>
+
+            <p class="mt-3">
+                <a href="#"><i class="fab fa-vk fa-lg"></i></a>
+                <a href="#" class="ml-3"><i class="fab fa-telegram fa-lg"></i></a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const burgers = document.querySelectorAll('.navbar-burger');
+
+            burgers.forEach(burger => {
+                burger.addEventListener('click', () => {
+                    const targetId = burger.dataset.target;
+                    const targetMenu = document.getElementById(targetId);
+
+                    burger.classList.toggle('is-active');
+                    targetMenu.classList.toggle('is-active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
